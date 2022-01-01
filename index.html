@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>practiceHtml</title>
+</head>
+<body>
+
+<div class="title">Анкета посетителя ресторана</div>
+	<fieldset>
+		<div class="content">
+			<p>Имя* <input type="text" name="name"></p>
+			<p>Телефон* <input type="tel" name="tel"></p>
+			<p>E-mail* <input type="text" name="E-mail"></p>
+			<p>Дата посещения <input type="date" name="date"></p>
+		</div>
+		<legend class="contacsText">Контакная информация</legend>
+	</fieldset>
+
+	<fieldset>
+		<legend class="titleInfo">Персональная информация</legend>
+		<div class="contentTwo">
+			<p>Возраст <input type="text" name="age"></p>
+			<p>Любимая кухня 
+				<select name="contry">
+				<option value="contryOne">Национальная</option>
+				<option value="contryTwo">Казахская</option>
+				<option value="contryThree">Русская</option>
+			</select>
+		</p>
+			<p>Какие блюда Вы хотели бы увидеть в меню?
+				<textarea name="text" cols="15" rows="2"></textarea>
+			</p>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend class="titleEstimation">Оценка нашего заведения</legend>
+		<div class="contentThree">
+			<p>Почему Вы выбрали наше заведение?</p>
+			<p><input type="radio" name="home"> Недалеко от дома работы</p>
+			<p><input type="radio" name="advertisement"> Увидел в рекламе</p>
+			<p><input type="radio" name="advised"> Посоветовали</p>
+			<p><input type="radio" name="price"> Оптимальные соотношение цены и качества</p>
+			<p>Вы будете рекомендовать наше заведение своим знакомым?</p>
+			<p><input type="radio" name="yes">Да</p>
+			<p><input type="radio" name="no">Нет</p>
+			<p><input type="submit" name="submit"></p>
+		</div>
+	</fieldset>
+</body>
+</html>

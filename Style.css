@@ -1,0 +1,27 @@
+ body{
+	 padding: 0 0 0 10px;
+ }
+ .title{
+	 padding: 0 0 20px 0 ;
+	 font-weight: 600;
+	 font-size: 24px;
+	 color: chocolate;
+ }
+ .content{
+	color: chocolate;
+ }
+ .contacsText{
+	color: cyan;
+ }
+ .titleInfo{
+	 color: cyan;
+ }
+ .contentTwo{
+	 color: chocolate;
+ }
+ .titleEstimation{
+	color: cyan;
+ }
+ .contentThree{
+	color: chocolate;
+}
